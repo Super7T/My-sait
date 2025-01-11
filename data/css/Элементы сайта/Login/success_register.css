@@ -1,0 +1,22 @@
+.parol-nosuccess{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  
+    width: 300px;
+    height: 70px;
+    position:  top;
+    border-radius: 30px;
+    background-color: #86BBD8 ;
+}
+
+.text {
+    transform: translateY(-600px);
+}
+
+.parol-nosuccess p {
+    text-align: center;
+    font-size: 30px;
+  
+}

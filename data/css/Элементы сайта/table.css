@@ -1,0 +1,13 @@
+th,td {
+    padding:10px
+}
+tr {
+    background-color: gray;
+}
+
+td {
+    background-color: whitesmoke;
+}
+table {
+    background-color: black;
+}

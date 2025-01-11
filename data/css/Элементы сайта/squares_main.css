@@ -1,0 +1,115 @@
+.squares_item_main_iphone{
+    box-shadow: 0 1px 6px rgba(0,0,0,0.08), 0 1px 4px rgba(0,0,0,0.1);
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 9px;
+    transition: all .2s ease-out;
+    cursor: pointer;
+    color: black;
+    background-color: #2F4858;
+    width: 75%;
+    height: 470px;
+    transform:translate(400px,20px);
+}
+  
+.squares_item_main:hover{
+    transform: scale(1.2);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    color: white;
+}
+
+
+.block_1{
+    display:inline-block;
+    padding:25px;
+    margin:15px;
+    background-color: #2F4858;
+    border-radius: 15px;
+    transform: translate(60px,70px);
+ 
+    text-align: center;
+    transition: all .4s ease-out; /*Скорость анимации*/
+    cursor: pointer;
+    color: black;
+   
+    width: 500px;
+    height: 250px;
+}
+
+
+.block_2{
+   display:inline-block;
+    padding:25px;
+    margin:15px;
+    background-color: #2F4858;
+    border-radius: 15px;
+    transform: translate(60px,-30px);
+ 
+    text-align: center;
+    transition: all .4s ease-out; 
+    cursor: pointer;
+    color: black;
+    
+    width: 500px;
+    height: 250px;
+}
+
+
+.block_3{
+    display:inline-block;
+    padding:25px;
+    margin:15px;
+    background-color: #2F4858;
+    border-radius: 15px;
+    transform: translate(60px,-30px);
+
+
+    text-align: center;
+    transition: all .4s ease-out;
+    cursor: pointer;
+    color: black;
+ 
+    width: 500px;
+    height: 250px;
+}
+
+.block_square{
+    background-color: #86BBD8;
+    width: 320px;
+    height: 210px;
+    border-radius: 10px;
+    transform: translate(170px,-290px);
+}
+
+.block_1:hover{
+    margin:5px;
+    padding:35px;
+
+    transform: scale(1.0);  
+    box-shadow: 0 2px 5px rgba(0,0,0,0.30), 0 2px 6px rgba(0,0,0,22);
+
+}
+
+.block_2:hover{
+    margin:5px;
+    padding:35px;
+
+    transform: scale(1.0);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.30), 0 2px 6px rgba(0,0,0,22);
+}
+
+.block_3:hover{
+    margin:5px;
+    padding:35px;
+    
+    transform: scale(1.0);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.30), 0 2px 6px rgba(0,0,0,22);
+}
+span{
+    height: 500px;
+}
+h2 {
+    width: 300px;
+    transform: translate(180px,-15px);
+}

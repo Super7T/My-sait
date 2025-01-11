@@ -1,0 +1,36 @@
+.img{
+    display:inline-block;
+    padding:25px;
+    margin:15px;
+    background-color: #2F4858;
+    border-radius: 15px;
+    transform: translate(150px,70px);
+ 
+    text-align: center;
+    transition: all .4s ease-out; /*Скорость анимации*/
+    cursor: pointer;
+    color: black;
+   
+    width: 400px;
+    height: 500px;
+}
+img{
+    width: 700px;
+    height: 500px;
+}
+
+.specifications{
+    background-color: #2F4858;
+    width: 900px;
+    height: 100px;
+    transform: translate(600px,-500px);
+    border-radius: 15px;
+}
+
+.esmination{
+    background-color: #2F4858;
+    width: 400px;
+    height: 100px;
+    transform: translate(190px,70px);
+    border-radius: 15px;
+}
